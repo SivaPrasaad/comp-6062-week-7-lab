@@ -1,5 +1,5 @@
-let inputElement = document.querySelector("#numberInput");
-inputElement.addEventListener("input",Conduct);
+let inputElement = document.querySelector("#numberInput"); //queryselects the numberInput to input
+inputElement.addEventListener("input",Conduct);     //eventlistener where it calls the function Conduct
 function Conduct()
 {
     if(inputElement.value>=10||inputElement.value<=-10)
